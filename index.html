@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- FONT -->
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/f13455e480.js" crossorigin="anonymous"></script>
+    <!-- ICONS -->
+    <!-- ANIMATIONS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- ANIMATIONS -->
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar y Header -->
+    <header id="header">
+        <nav id="navbar">
+            <img src="/images/logo.png" alt="logo">
+            <ul id="nav">
+                <li class="navLinks"><a href="/">Home</a></li>
+                <li class="navLinks">
+                    <a href="/">Services
+                        <i class="fa-solid fa-chevron-down" style="font-size: 10px;"></i>
+                    </a>
+                </li>
+                <li class="navLinks"><a href="/">Sobre nosotros</a></li>
+                <li class="navLinks"><a href="/">Insights</a></li>
+                <li id="contactButton"><a href="/">Contacto</a></li>
+            </ul>
+            <a id="menuIcon" onclick="onMenuClick()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <section id="headerSection">
+            <h1 data-aos="zoom-in" data-aos-duration="1000" id="headerTitle">
+                ¿Cómo reinventar y crear <span style="font-weight: 700;">nuevos negocios</span><br>
+                desde <span style="color: #FF6E56; font-weight: 700">iniciativas de innovación</span>?
+            </h1>
+            <hr width="100px" size="5" style="border-color: #40DB9D; background-color: #40DB9D; margin-top: 30px;" />
+            <p data-aos="zoom-in-up" data-aos-duration="1000" id="headerSubtitle">
+                Ampliamos los puntos de vista de directivos y equipos para detectar y <br> desarrollar oportunidades de
+                innovación bajo un proceso sistémico y práctico.
+            </p>
+            <a data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" class="orangeButton"
+                href="/">Contáctanos</a>
+        </section>
+    </header>
+    <!-- Navbar y Header -->
+    <main>
+        <!-- Sección de crear valor -->
+        <section class="sectionContainer">
+            <div id="firstSectionTitle" data-aos="fade-down" data-aos-duration="1000">
+                <hr width="100px" size="5" style="border-color: #ff6e56; background-color: #ff6e56;" />
+                <h2 class="sectionTitle">Crea valor</h2>
+            </div>
+            <div id="firstSection">
+                <div data-aos="flip-up" data-aos-duration="1000" class="firstSectionCard" id="orangeCard">
+                    <div class="firstSectionCardInfo">
+                        <h3 class="firstSubSectionTitle">Validación de <br>oportunidades</h3>
+                        <hr width="100px" size="5" style="border-color: #40DB9D; background-color: #40DB9D;">
+                        <p>Asegura que las temáticas de interés sean oportunidades reales para la organización, más allá
+                            de sus propios límites o retos.</p>
+                    </div>
+                </div>
+                <div data-aos="flip-down" data-aos-duration="1000" class="firstSectionCard" id="violetCard">
+                    <div class="firstSectionCardInfo">
+                        <h3 class="firstSubSectionTitle">Escenarios <br>futuros</h3>
+                        <hr width="100px" size="5" style="border-color: #ff6e56; background-color: #ff6e56;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seccion de crear valor -->
+        <!-- Seccion de checks -->
+        <section class="sectionContainer">
+            <div id="secondSection">
+                <div data-aos="fade-right" data-aos-duration="1000" id="secondSectionTitle">
+                    <hr width="100px" size="5" style="border-color: #ff6e56; background-color: #ff6e56;" />
+                    <h2 class="sectionTitle">Si te encuentras en<br> esta situación:</h2>
+                </div>
+                <div id="subSection">
+                    <div id="firstSubSection">
+                        <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000"
+                            class="subSectionSubTitle">Comprueba y/o verifica</p>
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1100" class="sectionCheck">
+                            <img src="/images/checkbox.png" alt="checkbox">
+                            <p>No sé hacia dónde apostar los esfuerzos de innovación. A mayor riesgo,bajos entornos
+                                controlados.</p>
+                        </div>
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1200" class="sectionCheck">
+                            <img src="/images/checkbox.png" alt="checkbox">
+                            <p>Estoy perdiendo mercado y quiero diferenciarme de la competencia.</p>
+                        </div>
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1300" class="sectionCheck">
+                            <img src="/images/checkbox.png" alt="checkbox">
+                            <p>No sé cómo obtener el valor real de las tendencias globales.</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1300" id="secondSubSection">
+                        <p class="subSectionSubTitle">¿Te sentiste identificado con alguno de los enunciados?</p>
+                        <a class="orangeButton" href="/">Conversemos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de checks -->
+        <!-- Sección de testimonios -->
+        <section id="thirdSectionFather">
+            <a href="/">
+                <img src="/images/whatsapp.png" alt="" id="whatsappLogo">
+            </a>
+            <div id="thirdSection">
+                <div data-aos="fade-down" data-aos-duration="1000" id="thirdSectionTitle">
+                    <hr width="100px" size="5" style="border-color: #ff6e56; background-color: #ff6e56;" />
+                    <h2 class="sectionTitle">Hemos dejado huella</h2>
+                </div>
+                <p data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" class="sectionText">Estas son las
+                    opiniones de algunos de nuestros clientes.</p>
+                <div id="thirdSectionInfo">
+                    <div data-aos="zoom-out" data-aos-delay="1200" data-aos-duration="1000" class="thirdSectionSubInfo">
+                        <p>“Me ayudaron a validar rápidamente temas que estaban sueltos para verdaderamente apostar por
+                            inversiones que valen la pena para la empresa” - </p>
+                        <div class="sponsorsSection">
+                            <img src="/images/caracol.png" width="auto" height="37" alt="">
+                            <div>
+                                <p class="sponsorsTitle">Caracol</p>
+                                <p class="sponsorsSubTitle""">Validación de oportunidades</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-out" data-aos-delay="1200" data-aos-duration="1000" class="thirdSectionSubInfo">
+                        <p>“La lógica de horizontes es clave para entender hacia dónde va la innovación y cómo tomar la
+                            decisiones de si entrar o no”.</p>
+                        <div class="sponsorsSection">
+                            <img src="/images/FDN.png" width="auto" height="37" alt="">
+                            <div>
+                                <p class="sponsorsTitle">FDN</p>
+                                <p class="sponsorsSubTitle""">Portafolio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-out" data-aos-delay="1200" data-aos-duration="1000" class="thirdSectionSubInfo">
+                        <p>“Es muy importante conocer el sector que se está incursionando, y desde allí diseñar
+                            propuesta creíbles que rompan con lo tradicional, tomar el control de ese futuro y apostar
+                            por riesgo más inteligentes”.
+                        </p>
+                        <div class="sponsorsSection">
+                            <img src="/images/MSD.png" width="auto" height="37" alt="">
+                            <div>
+
+                                <p class="sponsorsTitle">MSD</p>
+                                <p class="sponsorsSubTitle""">Innovación Comercial</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de testimonios -->
+        <!-- Sección de resultados -->
+        <section class="sectionContainer">
+            <div id="fourthSection">
+                <div data-aos="fade-down" data-aos-duration="1000" id="fourthSectionTitle">
+                    <hr width="100px" size="5" style="border-color: #ff6e56; background-color: #ff6e56;" />
+                    <h2 class="sectionTitle">Resultados.</h2>
+                </div>
+                <p data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" class="sectionText">Las cifras
+                    reflejan el éxito que hemos alcanzado en cada proyecto.</p>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200" id="resultsSection">
+                    <div class="resultsInfo">
+                        <p class="resultsNumber">+200</p>
+                        <p>Iniciativas viabilizadas de innovación <br>conectadas con el negocio.</p>
+                    </div>
+                    <div class="resultsInfo">
+                        <p class="resultsNumber">+100</p>
+                        <p>Formas de jugar en el mercado puestas<br> en marcha desde proyectos de innovación.</p>
+                    </div>
+                    <div class="resultsInfo">
+                        <p class="resultsNumber">+30</p>
+                        <p>Portafolios de proyectos y<br> oportunidades evaluados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de resultados -->
+        <!-- Grupo innovador -->
+        <section class="sectionContainer">
+            <div id="fiveSection">
+                <div data-aos="fade-down" data-aos-duration="1000" id="fiveSectionTitle">
+                    <hr width="100px" size="5" style="border-color: #ff6e56; background-color: #ff6e56;" />
+                    <h2 class="sectionTitle">¿Quieres ser parte del grupo innovador?</h2>
+                </div>
+                <p data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" class="sectionText">Píldoras de
+                    conocimiento accionable:</p>
+                <div id="fiveSectionCards">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1100" id="fiveSectionCardWhite">
+                        <div id="cardWhiteContent">
+                            <div class="cardTitle">
+                                <hr width="100px" size="5" style="border-color: #ff6e56; background-color: #ff6e56;" />
+                                <p id="cardWhiteTitle">Loerem Ipsum</p>
+                            </div>
+                            <a href="/" id="violetButton">Conoce más</a>
+                        </div>
+                    </div>
+                    <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="1100"
+                        id="fiveSectionCardViolet">
+                        <div id="cardVioletContent">
+                            <div class="cardTitle">
+                                <hr width="100px" size="5" style="border-color: #ff6e56; background-color: #ff6e56;" />
+                                <p>Loerem Ipsum</p>
+                            </div>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <a href="/" id="outlineWhiteButton">Conoce más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Grupo innovador -->
+        <!-- NewsLetter -->
+        <section id="sixSection">
+            <p id="newsLetterTitle">Recibe información actualizada de tu interés.</p>
+            <a href="/" id="outlineRectangleButton">Suscríbete a nuestro Newsletter</a>
+        </section>
+        <!-- NewsLetter -->
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div id="footerInfo">
+            <div id="firstFooterItem">
+                <img src="/images/logo.png" width="70%" alt="logo">
+                <div>
+                    <p style="font-weight: 500; font-size: 1.5em">Siguenos</p>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <p style="font-size: 1.3em; display: flex; align-items: center; gap:10px">
+                    <i class="fa-solid fa-envelope"></i>contacto@inventta.net
+                </p>
+            </div>
+            <div id="footerItems">
+                <div class="footerItem">
+                    <p class="footerItemTitle">Inscríbete a nuestras <br>comunidades:</p>
+                    <hr width="100px" size="3" style="border-color: #40DB9D; background-color: #40DB9D;" />
+                    <ul class="footerItemList">
+                        <li>Pymes Colombia</li>
+                        <li>Solvers</li>
+                        <li>Insightts</li>
+                    </ul>
+                </div>
+                <div class="footerItem">
+                    <p class="footerItemTitle">Sobre nosotros:</p>
+                    <hr width="100px" size="3" style="border-color: #40DB9D; background-color: #40DB9D;" />
+                    <ul class="footerItemList">
+                        <li>Quiénes somos</li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+                <div class="footerItem">
+                    <p class="footerItemTitle">Oficinas en:</p>
+                    <hr width="100px" size="3" style="border-color: #40DB9D; background-color: #40DB9D;" />
+                    <ul style="font-size: 1.2em;">
+                        <li>Colombia</li>
+                        <li>Perú</li>
+                        <li>Brasil</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footerSignature">
+            <hr width="100%" size="1">
+            <p>
+                2022 - DISEÑO Y DESARROLLO POR TRES PI MEDIOS
+            </p>
+        </div>
+    </footer>
+    <!-- Footer-->
+    <!-- JAVASCRIPT -->
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <!-- JAVASCRIPT -->
+</body>
+
+</html>
